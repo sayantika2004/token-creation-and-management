@@ -1,0 +1,13 @@
+[package]
+name = "MyToken"
+version = "0.0.1"
+authors = ["Your Name <youremail@example.com>"]
+license = "MIT"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "some_commit_hash" }
+AptosStd = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-std", rev = "some_commit_hash" }
+MoveStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/move-stdlib", rev = "some_commit_hash" }
+
+[addresses]
+MyToken = "0x92cd929e80ce2d471f13bae113040b9eed1c1b582a75291a472277574a3df02b"
